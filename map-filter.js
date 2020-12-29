@@ -14,8 +14,8 @@ let numbers=[2,3,4,5,6];
 // })
 
 
-// const result=numbers.map( x => x*x )
-//  console.log(result);
+const result=numbers.map( x => x*x )
+console.log(result);
 
 const bigger=numbers.filter(x=>x>3);
 console.log(bigger);
